@@ -1,0 +1,29 @@
+.pageContainer {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+}
+
+.searchBoxContainer {
+  display: flex;
+  width: 60%;
+}
+
+.searchBox {
+  flex-grow: 1;
+  margin-left: 1rem;
+}
+
+.searchBox:focus {
+  border: 2px solid blue;
+}
+
+.historicalPowersContainer {
+    width: 60%;
+    margin: .5rem 0rem;
+    background-color: black;
+    text-align: center;
+    height: 650px;
+    overflow: scroll;
+}
+
