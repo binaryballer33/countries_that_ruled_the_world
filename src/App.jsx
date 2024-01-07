@@ -35,7 +35,7 @@ function App() {
       </div>
       
       {/* featured country component that changes to the last country that was clicked */}
-      <div key={featuredCountry.country} style={{ color: 'lightblue', textAlign: 'center', width: '60%'}}>
+      <div key={featuredCountry.country} className='featuredCountry'>
             <h1>{featuredCountry.country}</h1>
             <p>{featuredCountry.description}</p>
             <p><span style={{color: 'green'}}>Fact: </span>{featuredCountry.fact}</p>

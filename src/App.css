@@ -27,3 +27,22 @@
     overflow: scroll;
 }
 
+.featuredCountry {
+  color: lightblue;
+  text-align: center;
+  width: 60%;
+}
+
+@media screen and (max-width: 800px) {
+  .searchBoxContainer {
+    width: 100%;
+  }
+  .historicalPowersContainer {
+    width: 100%;
+  }
+
+  .featuredCountry {
+    width: 100%;
+  }
+}
+
